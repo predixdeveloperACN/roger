@@ -23,16 +23,16 @@ func setHdrOffset(valueType constants.DataType, valueLength int, buf []byte, o i
 	o++
 	buf[o] = byte((valueLength & 0xff0000) >> 16)
 	o++
-	if valueLength > 0xfffff0 {
-		buf[o] = byte((valueLength & 0xff000000) >> 24)
-		o++
-		buf[o] = 0
-		o++
-		buf[o] = 0
-		o++
-		buf[o] = 0
-		o++
-	}
+	//if valueLength > 0xfffff0 {
+	//	buf[o] = byte((valueLength & 0xff000000) >> 24)
+	//	o++
+	//	buf[o] = 0
+	//	o++
+	//	buf[o] = 0
+	//	o++
+	//	buf[o] = 0
+	//	o++
+	//}
 }
 
 func SetInt(v int, buf []byte, o int) {
@@ -42,8 +42,8 @@ func SetInt(v int, buf []byte, o int) {
 	o++
 	buf[o] = byte((v & 0xff0000) >> 16)
 	o++
-	buf[o] = byte((v & 0xff000000) >> 24)
-	o++
+	//buf[o] = byte((v & 0xff000000) >> 24)
+	//o++
 }
 
 func setLong(l int64, buf []byte, o int) {
