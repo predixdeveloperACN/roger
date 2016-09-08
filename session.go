@@ -9,8 +9,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/senseyeio/roger/assign"
-	"github.com/senseyeio/roger/constants"
+	"github.com/predixdeveloperACN/roger/assign"
+	"github.com/predixdeveloperACN/roger/constants"
 )
 
 // Session is an interface to send commands to an RServe session. Sessions must be closed after use.

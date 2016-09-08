@@ -3,7 +3,7 @@ package assign
 import (
 	"math"
 
-	"github.com/senseyeio/roger/constants"
+	"github.com/predixdeveloperACN/roger/constants"
 )
 
 func assignDoubleArray(symbol string, value []float64) ([]byte, error) {

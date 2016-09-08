@@ -7,7 +7,7 @@ import (
 
 	"strconv"
 
-	"github.com/senseyeio/roger/constants"
+	"github.com/predixdeveloperACN/roger/constants"
 )
 
 // Parse converts a byte array containing R SEXP to a golang object.

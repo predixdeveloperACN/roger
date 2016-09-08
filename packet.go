@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/senseyeio/roger/constants"
-	"github.com/senseyeio/roger/sexp"
+	"github.com/predixdeveloperACN/roger/constants"
+	"github.com/predixdeveloperACN/roger/sexp"
 )
 
 // Packet is the interface satisfied by objects returned from a R command.
